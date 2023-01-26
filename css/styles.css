@@ -1,18 +1,21 @@
-body {
-    background-color: #EAEAEA;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{
+    text-align: center;
+
 }
 h1{
-    color: #00ABB3;
-    text-align: left;
-    text-shadow:#3C4048 -1px -1px;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #66BFBF;
 }
 h3{
-    color: #00ABB3;
-    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    color: #33cccc; 
 }
-hr{
-    width: 7%;
-    border-style: none;
-    border-top: #3C4048 dotted 10px;
+p{
+    font-family: 'Gabriela', serif;
+    color: black;
 }
