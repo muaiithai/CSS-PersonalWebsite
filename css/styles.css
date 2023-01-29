@@ -24,11 +24,19 @@ p{
     font-family: 'Gabriela', serif;
     line-height: 2;
 }
+pre{
+    font-family: 'Gabriela', serif;
+    line-height: 1.5;
+    margin-block: 40px;
+}
 a{
-    font-family: 'Quicksand', sans-serif;
     color: #11999E; 
+    font-family: 'Gabriela', serif;
+    margin: 1% 2%;
     text-decoration: none;
-    padding: 1%;
+}
+a:hover{
+    color: #EAF6F6;
 }
 hr{
     border: none;
@@ -41,12 +49,6 @@ hr{
     background-color: #EAF6F6;
     padding-top: 6rem;
     position: relative;
-}
-.bottom-container{
-    background-color: #66BFBF;
-    padding-bottom: 2rem;
-    position: relative;
-
 }
 .top-cloud{
     position: absolute;
@@ -62,34 +64,51 @@ hr{
     margin-block: 100px;
 }
 .intro-section{
-    margin-inline: auto;
-    width:30%;
-}
-.copyright{
-    color: #EAF6F6;
+    margin: 90px auto 90px auto;
 }
 .profile-pic{
     width: 9rem;
 }
 .interest-01{
-    margin: 80px auto 80px auto;
+    margin: 90px auto 90px auto;
     text-align:left;
     width: 60%
-
 }
 .technology-pic{
     float:left;
     margin-right: 25px;
-    width:25%;
+    width:20%;
 }
 .interest-02{
-    margin: 80px auto 80px auto;
+    margin: 90px auto 90px auto;
     text-align:left;
     width: 60%
-
 }
 .photography-pic{
     float:right;
     margin-left: 25px;
-    width: 25%;
+    width: 20%;
+}
+.bttn {
+    padding: 1% 2% 1% 2%;
+    font-size:20px;
+    font-family:'Quicksand', sans-serif;
+    color:rgba(234, 246, 246, 1);
+    font-weight:bold;
+    border-radius:13px;
+    background:linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
+}
+.bttn:hover {
+    background: linear-gradient(rgba(17, 153, 158, 1), rgba(17, 205, 212, 1));
+}
+                
+.bottom-container{
+    background-color: #33cccc;
+    padding-block: 20px 5px;
+
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.7rem;
+    padding-block: 20px 0;
 }
