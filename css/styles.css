@@ -1,25 +1,28 @@
 body{
-    text-align: center;
-    margin:0;
     background-color: white;
+    color: #50514E;
+    margin:0;
+    text-align: center;
 }
 h1{
-    font-size: 4rem;
-    font-family: 'Pacifico', cursive;
     color: #66BFBF;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.625rem;
+    margin-block: 50px 0;
 }
 h2{
-    font-size: 2rem;
-    font-family: 'Quicksand', sans-serif;
     color: #66BFBF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
 }
 h3{
-    font-family: 'Quicksand', sans-serif;
     color: #33cccc; 
+    font-family: 'Quicksand', sans-serif;
 }
 p{
     font-family: 'Gabriela', serif;
-    color: black;
+    line-height: 2;
 }
 a{
     font-family: 'Quicksand', sans-serif;
@@ -28,14 +31,15 @@ a{
     padding: 1%;
 }
 hr{
+    border: none;
+    border-top: dotted 0.6rem;
     color: #EAF6F6;
-    width: 9%;
-    border-style: none;
-    border-top: dotted 0.5rem;
+    margin: 100px auto 100px auto;
+    width: 5%;
 }
 .top-container{
     background-color: #EAF6F6;
-    padding-top: 3rem;
+    padding-top: 6rem;
     position: relative;
 }
 .bottom-container{
@@ -52,11 +56,14 @@ hr{
 .bottom-cloud{
     position: absolute;
     bottom:40%;
-    left:20%;
+    left:15%;
 }
 .mid01-container{
-
-    padding: 5% 25%;
+    margin-block: 100px;
+}
+.intro-section{
+    margin-inline: auto;
+    width:30%;
 }
 .copyright{
     color: #EAF6F6;
@@ -65,20 +72,24 @@ hr{
     width: 9rem;
 }
 .interest-01{
+    margin: 80px auto 80px auto;
     text-align:left;
-    padding-left: 5px;
+    width: 60%
+
 }
 .technology-pic{
     float:left;
-    width:30%;
-    margin: 0;
+    margin-right: 25px;
+    width:25%;
 }
 .interest-02{
+    margin: 80px auto 80px auto;
     text-align:left;
-    padding-left: 5px;
+    width: 60%
+
 }
 .photography-pic{
     float:right;
-    width:30%;
-    margin: 0;
+    margin-left: 25px;
+    width: 25%;
 }
