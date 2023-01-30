@@ -50,15 +50,18 @@ hr{
     padding-top: 6rem;
     position: relative;
 }
-.top-cloud{
+.cloud-01{
     position: absolute;
     top:5%;
     right:20%;
 }
-.bottom-cloud{
+.cloud-02{
     position: absolute;
-    bottom:40%;
+    bottom:30%;
     left:15%;
+}
+.pyramids{
+    padding-top: 5.625rem;
 }
 .mid01-container{
     margin-block: 100px;
@@ -72,7 +75,7 @@ hr{
 .interest-01{
     margin: 90px auto 90px auto;
     text-align:left;
-    width: 60%
+    width: 60%;
 }
 .technology-pic{
     float:left;
